@@ -1,0 +1,8 @@
+{
+  "name": "Mahi - Advanced AI Assistant",
+  "description": "An ultra-intelligent Android AI Voice Assistant with full device automation capabilities.",
+  "requestFramePermissions": ["microphone", "camera", "geolocation", "clipboard-read", "clipboard-write"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

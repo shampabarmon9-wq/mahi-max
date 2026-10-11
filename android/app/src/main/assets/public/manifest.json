@@ -1,0 +1,16 @@
+{
+  "name": "Mahi AI Assistant",
+  "short_name": "Mahi AI",
+  "description": "Your 3D AI Assistant",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FF3B7E",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
