@@ -1,0 +1,32 @@
+Mere Android project ke liye GitHub Actions workflow file create karo.
+
+Goal:
+Main GitHub repository se Android APK automatically build karna chahta hoon.
+
+Requirements:
+
+1. Project ke root mein ".github/workflows/android.yml" file create karo.
+2. Workflow GitHub Actions ke Ubuntu runner par work kare.
+3. Java version project ke Gradle/Android configuration ke according automatically compatible version use kare. Agar project Java 17 use karta hai to JDK 17 use karo.
+4. Gradle dependencies download karo.
+5. Gradle wrapper ko use karke project build karo.
+6. Debug APK successfully generate karo.
+7. Build ke baad generated APK ko GitHub Actions ke Artifacts mein upload karo, taaki main GitHub ke Actions → workflow run → Artifacts se APK download kar sakun.
+8. Repository mein existing Gradle configuration, package name, module name aur project structure ko change mat karo.
+9. Kotlin/Compose ya Java/XML ko unnecessarily convert mat karo. Existing project technology ko preserve karo.
+10. Hard-coded secrets, API keys ya passwords workflow mein mat likho.
+11. Agar project mein "gradlew" executable permission missing ho to workflow usko safely handle kare.
+12. Workflow ko unnecessary steps ke bina simple, reliable aur production-ready rakho.
+13. APK path automatically detect karo ya standard Android path "*/build/outputs/apk/**/*.apk" se artifact upload karo.
+14. Build fail hone par clear GitHub Actions error aaye.
+15. Final answer mein mujhe:
+
+- complete "android.yml" code
+- exact file location
+- GitHub par workflow run karne ka tarika
+- APK artifact kahan milega
+- required repository files ki checklist
+  batao.
+
+Important:
+Pehle mere existing project structure aur Gradle files ko inspect karo. Uske baad hi "android.yml" banao. Existing project ko todne wali changes mat karo.
